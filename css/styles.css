@@ -564,9 +564,58 @@ height: 40px;
 
     justify-content: center;
  }
- .footer-btn-sub{
+ .pat-foot{
+    margin-bottom: 16px;
+     font-weight: 500; 
+
+     font-size: 16px; 
+     line-height: 1.5;  
+     letter-spacing: 0.02em; 
+     color: #ffffff; 
 
  }
+ .footer-form{
+    display: flex; 
+    gap: 24px;
+ }
+.subscr-input{
+ width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;  
+    padding-left: 16px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff; 
+
+}
+.subscr-input::placeholder{
+    color #ffffff; 
+}
+
+ .footer-btn-sub{
+min-width: 165px;
+ height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+ }
+ .svg-icon-sub{
+
+ margin-left: 16px;}
 
  .backdrop{
 position: fixed;
@@ -627,17 +676,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-xr-btn:hover + .svg-icon-modal,
-.modal-xr-btn:focus + .svg-icon-modal{
-   
-background-color: #404bbf;
+.modal-xr-btn:hover,
+.modal-xr-btn:focus{
+   background-color: #404bbf;
 border: none;
 fill: #fff;
 }
-/**.svg-icon-modal:hover,
+.svg-icon-modal:hover,
 .svg-icon-modal:focus{
     fill: #fff;
-}**/
+}
 .modal-tile{
     font-weight: 500;
 font-size: 16px;
@@ -716,6 +764,13 @@ border-radius: 4px;
 .modal-field{
     margin-bottom: 8px; 
 
+}
+.modal-field-c{
+    margin-bottom: 16px; 
+
+}
+.modal-field-check{
+    margin-bottom: 24px;    
 }
 .svg-icon-modal-field{
     position: absolute;
