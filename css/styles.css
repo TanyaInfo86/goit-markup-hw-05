@@ -682,8 +682,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border: none;
 fill: #fff;
 }
-.svg-icon-modal:hover,
-.svg-icon-modal:focus{
+.modal:hover .svg-icon-modal,
+.modal:focus .svg-icon-modal{
     fill: #fff;
 }
 .modal-tile{
@@ -807,7 +807,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 }
 
-.modal-check-text-sp{
+.modal-check-text span{
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -820,7 +820,7 @@ color: #8e8f99;
     fill: transparent;
 
 }
-.modal-check:checked +.modal-check-text-sp{
+.modal-check:checked + .modal-check-text span{
    
     background-color:#404bbf; 
     border: none;
