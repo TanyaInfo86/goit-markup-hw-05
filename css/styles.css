@@ -591,8 +591,7 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal{
     position: absolute;
-    
-    padding: 24px;
+    padding: 72px 24px 24px;
     top: 50%;
     left: 50%;
     border-radius: 4px;
@@ -628,16 +627,17 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-xr-btn:hover,
-.modal-xr-btn:focus{
+.modal-xr-btn:hover + .svg-icon-modal,
+.modal-xr-btn:focus + .svg-icon-modal{
    
 background-color: #404bbf;
 border: none;
+fill: #fff;
 }
-.svg-icon-modal:hover,
+/**.svg-icon-modal:hover,
 .svg-icon-modal:focus{
     fill: #fff;
-}
+}**/
 .modal-tile{
     font-weight: 500;
 font-size: 16px;
@@ -652,6 +652,7 @@ margin-bottom: 16px;
 }
 .input-wraper{
     position: relative;
+    margin-bottom: 16px;
 
 }
 
@@ -699,8 +700,7 @@ border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px; 
     outline: transparent;
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-comment:focus { border: 1px solid #4d5ae5;}
 
@@ -714,7 +714,7 @@ border-radius: 4px;
 }
 
 .modal-field{
-    margin-bottom: 24px; 
+    margin-bottom: 8px; 
 
 }
 .svg-icon-modal-field{
@@ -723,7 +723,6 @@ border-radius: 4px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: border-color 300ms ease;
 }
 .modal-btn{
 
@@ -748,7 +747,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-check-text{
 font-size: 12px;
-line-height: 1.7;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
