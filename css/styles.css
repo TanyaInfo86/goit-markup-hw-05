@@ -807,7 +807,7 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 }
 
-.modal-check-text-span{
+.modal-check-text-sp{
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -820,7 +820,7 @@ color: #8e8f99;
     fill: transparent;
 
 }
-.modal-check:checked +.modal-check-text-span{
+.modal-check:checked +.modal-check-text-sp{
    
     background-color:#404bbf; 
     border: none;
