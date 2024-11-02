@@ -438,7 +438,6 @@ margin-bottom: 8px;
   
         
         .portfol-text {
-            position: absolute;
             font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -480,13 +479,15 @@ padding-bottom: 132px;
 display: flex;
  
         }
+        .footer-container_r{
+        display: block;}
 
         .footer-container{
             display: flex;
             align-items: baseline;
         }
   .elem-van {
-            margin-right: 120px;  
+            margin-right: 150px;  
         }
  .footer-logo {
  font-family: "Raleway", sans-serif;
@@ -514,8 +515,9 @@ color: #f4f4fd; #f4f4fd
 .footer-icon { 
      width: 208px;
 height: 80px;
-margin-right: 530px;
+margin-right: 80px;
 }
+
 
 .footer-subtitle-icon {
     font-weight: 500;
@@ -556,15 +558,8 @@ height: 40px;
       fill:  #f4f4fd;
  }
 
- .footer-label{
-    display: flex;
-    max-width: 453px;
-    height: 80px;
-    margin-right: 139px;
-
-    justify-content: center;
- }
- .pat-foot{
+  .pat-foot{
+  
     margin-bottom: 16px;
      font-weight: 500; 
 
@@ -693,7 +688,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-top: 48px;
+
 text-align: center;
 margin-bottom: 16px;
 
